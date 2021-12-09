@@ -13,7 +13,7 @@ body{
     background-image: url('https://images.pexels.com/photos/2847648/pexels-photo-2847648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-position: 0 1000px;
     font-family:'Roboto'sans-serif ;
-    background-size: 200px;
+    
 }   
 
 .container{
@@ -38,4 +38,20 @@ font-size:2rem;
 text-decoration:none;
 border-radius:10px;
 
+}
+img{
+    width:200px;
+    height:200px;
+    
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    grid-template-rows:auto;
+    
+}
+ul{
+    padding:20px;
 }
