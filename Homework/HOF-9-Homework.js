@@ -1,9 +1,5 @@
-// cumilitive - this is the difficult part. Figuring out which HOF to use. 
-// Sort, map, filter, for each, reduce, or find?
 
-let c = console.log
-
-//1.   Write a hof function which returns the first number larger than 100
+/1.   Write a hof function which returns the first number larger than 100
 const nums= [23,89,300,45,2, 120];
 const largeNum = nums.sort((a,b)=> a-b).find(num=> num >100);
 
@@ -19,7 +15,7 @@ const people = [
 const orderedByYear = people.sort ((ele1,ele2)=>{
     return ele1.birthYear - ele2.birthYear
 }); 
- console.log(orderedByYear, "orderedbyyear");
+ console.log(orderedByYear);
 
 
 // 3.   Given an array of cars only list cars that are build pre-2000
